@@ -3,6 +3,9 @@ function replaceText() {
 
     // 置換パターンをオブジェクトで定義
     const replacements = {
+        "p’m": "Pq",
+        "t’n": "Tq",
+        "k’n": "Kq",
         "hng": "W",
         "kh": "kh",
         "gh": "gh",
@@ -10,6 +13,7 @@ function replaceText() {
         "sh": "S",
         "zh": "j",
         "j": "dj",
+        "’": "q",
         "ya": "A",
         "bm": "B",
         "ts": "c",
